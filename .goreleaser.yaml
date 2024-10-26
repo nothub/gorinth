@@ -24,6 +24,10 @@ builds:
       - linux
       - darwin
       - windows
+    goarch:
+      - amd64
+      - arm64
+      - arm
     ignore:
       - goos: linux
         goarch: 386
@@ -31,6 +35,8 @@ builds:
         goarch: 386
       - goos: windows
         goarch: arm64
+      - goos: windows
+        goarch: arm
     #no_unique_dist_dir: true
 
 upx:
