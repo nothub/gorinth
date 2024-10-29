@@ -44,6 +44,13 @@ func (g *Downloader) Download(baseDir string) {
 			absPath, _ := filepath.Abs(filepath.Join(baseDir, dl.Path))
 			success := false
 			for _, link := range dl.Urls {
+
+				// TODO: check url host based on modrinth rules
+				//    cdn.modrinth.com
+				//    github.com
+				//    raw.githubusercontent.com
+				//    gitlab.com
+
 				// retry when download failed
 				for retries := 0; retries < g.Retries; retries++ {
 					// try download
