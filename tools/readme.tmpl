@@ -4,8 +4,7 @@
 [![discord](https://img.shields.io/discord/1149744662131777546?style=flat-square&labelColor=5c5c5c&color=007D9C)](https://discord.gg/QNbTeGHBRm)
 [![go pkg](https://pkg.go.dev/badge/github.com/nothub/mrpack-install.svg)](https://pkg.go.dev/github.com/nothub/mrpack-install)
 
-A cli application for installing Minecraft servers
-and [Modrinth](https://modrinth.com/) [modpacks](https://docs.modrinth.com/docs/modpacks/format_definition/).
+A cli application for installing Minecraft servers and [Modrinth](https://modrinth.com/) [modpacks](https://support.modrinth.com/en/articles/8802351-modrinth-modpack-format-mrpack).
 
 ---
 
