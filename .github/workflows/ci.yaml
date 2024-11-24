@@ -5,7 +5,7 @@ permissions:
 jobs:
 
   check:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,7 +20,7 @@ jobs:
   release:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v') == true
     needs: check
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
