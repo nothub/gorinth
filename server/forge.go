@@ -47,6 +47,8 @@ func (inst *ForgeInstaller) Install(serverDir string, serverFile string) error {
 		}
 
 		version = sorted[0].String()
+	} else {
+		version = inst.MinecraftVersion + "-" + version
 	}
 
 	u := fmt.Sprintf(
