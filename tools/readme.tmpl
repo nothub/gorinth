@@ -9,7 +9,7 @@ A cli application for installing Minecraft servers and [Modrinth](https://modrin
 ---
 
 ## Commands
-{{ range . }}
+{{ range .Entries }}
 ### {{ .Name }}
 
 ```
@@ -33,3 +33,9 @@ goreleaser release --clean --snapshot
 ```
 
 To build and publish a full release, push a semver tag (with 'v' prefix) to the 'main' branch on GitHub.
+
+## Contributors
+
+{{ range .Contribs }}
+- [ <img src="{{ .URL }}.png" width="32" height="32" /> {{ .Name }} ]({{ .URL }})
+{{ end -}}

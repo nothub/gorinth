@@ -162,3 +162,16 @@ goreleaser release --clean --snapshot
 ```
 
 To build and publish a full release, push a semver tag (with 'v' prefix) to the 'main' branch on GitHub.
+
+## Contributors
+
+
+- [ <img src="https://github.com/Chikage0o0.png" width="32" height="32" /> Chikage0o0 ](https://github.com/Chikage0o0)
+
+- [ <img src="https://github.com/anhgelus.png" width="32" height="32" /> William Hergès ](https://github.com/anhgelus)
+
+- [ <img src="https://github.com/mmtawous.png" width="32" height="32" /> Mohamed Tawous ](https://github.com/mmtawous)
+
+- [ <img src="https://github.com/Hunter200165.png" width="32" height="32" /> Pr. James Hunter ](https://github.com/Hunter200165)
+
+- [ <img src="https://github.com/murderspagurder.png" width="32" height="32" /> murder_spagurder ](https://github.com/murderspagurder)

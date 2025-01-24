@@ -14,6 +14,29 @@ import (
 	"github.com/nothub/mrpack-install/cmd"
 )
 
+var contribs = []Contrib{
+	{
+		Name: "Chikage0o0",
+		URL:  "https://github.com/Chikage0o0",
+	},
+	{
+		Name: "William Hergès",
+		URL:  "https://github.com/anhgelus",
+	},
+	{
+		Name: "Mohamed Tawous",
+		URL:  "https://github.com/mmtawous",
+	},
+	{
+		Name: "Pr. James Hunter",
+		URL:  "https://github.com/Hunter200165",
+	},
+	{
+		Name: "murder_spagurder",
+		URL:  "https://github.com/murderspagurder",
+	},
+}
+
 //go:embed readme.tmpl
 var fs embed.FS
 
@@ -21,9 +44,19 @@ func init() {
 	log.SetFlags(0)
 }
 
+type Data struct {
+	Entries  []CmdEntry
+	Contribs []Contrib
+}
+
 type CmdEntry struct {
 	Name string
 	Help string
+}
+
+type Contrib struct {
+	Name string
+	URL  string
 }
 
 func NewCmdEntry(name string, cmd string) CmdEntry {
@@ -44,10 +77,11 @@ func main() {
 		log.Fatalln(err.Error())
 	}
 
-	var data []CmdEntry
-	data = append(data, NewCmdEntry("root", ""))
+	var data Data
+	data.Contribs = contribs
+	data.Entries = append(data.Entries, NewCmdEntry("root", ""))
 	for _, sc := range cmd.RootCmd.Commands() {
-		data = append(data, NewCmdEntry(sc.Name(), sc.Name()))
+		data.Entries = append(data.Entries, NewCmdEntry(sc.Name(), sc.Name()))
 	}
 
 	tmpl, err := template.ParseFS(fs, "readme.tmpl")
