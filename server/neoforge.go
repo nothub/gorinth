@@ -19,7 +19,11 @@ func (inst *NeoForgeInstaller) Install(serverDir string, serverFile string) erro
 	version := inst.NeoForgeVersion
 	if version == "" || version == "latest" {
 
-		meta, err := maven.FetchMetadata("https://maven.neoforged.net/releases/net/neoforged/neoforge/maven-metadata.xml")
+		metaUrl := "https://maven.neoforged.net/releases/net/neoforged/neoforge/maven-metadata.xml"
+		if inst.MinecraftVersion == "1.20.1" {
+			metaUrl = "https://maven.neoforged.net/releases/net/neoforged/forge/maven-metadata.xml"
+		}
+		meta, err := maven.FetchMetadata(metaUrl)
 		if err != nil {
 			return err
 		}
@@ -60,6 +64,9 @@ func (inst *NeoForgeInstaller) Install(serverDir string, serverFile string) erro
 	}
 
 	u := fmt.Sprintf("https://maven.neoforged.net/releases/net/neoforged/neoforge/%s/neoforge-%s-installer.jar", version, version)
+	if inst.MinecraftVersion == "1.20.1" {
+		u = fmt.Sprintf("https://maven.neoforged.net/releases/net/neoforged/forge/1.20.1-%s/forge-1.20.1-%s-installer.jar", version, version)
+	}
 	installerFile, err := web.DefaultClient.DownloadFile(u, serverDir, fmt.Sprintf("neoforge-%s-installer.jar", version))
 	if err != nil {
 		return err
