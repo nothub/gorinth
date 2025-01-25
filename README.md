@@ -171,32 +171,38 @@ Some people contributed to this project. Thank you! 😊
   <tbody>
     <tr>
       <td align="center">
+        <a href="https://github.com/nothub/mrpack-install/commits?author=nothub">
+          <img src="https://avatars.githubusercontent.com/u/48992448?v=4" width="32px;" alt="Florian Hübner"/>
+          <br><sub><b>Florian Hübner</b></sub>
+        </a>
+      </td>
+      <td align="center">
         <a href="https://github.com/nothub/mrpack-install/commits?author=Chikage0o0">
-          <img src="https://github.com/Chikage0o0.png" width="32px;" alt="Chikage0o0"/>
+          <img src="https://avatars.githubusercontent.com/u/89348590?v=4" width="32px;" alt="Chikage0o0"/>
           <br><sub><b>Chikage0o0</b></sub>
         </a>
       </td>
       <td align="center">
-        <a href="https://github.com/nothub/mrpack-install/commits?author=William Hergès">
-          <img src="https://github.com/anhgelus.png" width="32px;" alt="William Hergès"/>
+        <a href="https://github.com/nothub/mrpack-install/commits?author=anhgelus">
+          <img src="https://avatars.githubusercontent.com/u/52921946?v=4" width="32px;" alt="William Hergès"/>
           <br><sub><b>William Hergès</b></sub>
         </a>
       </td>
       <td align="center">
-        <a href="https://github.com/nothub/mrpack-install/commits?author=Mohamed Tawous">
-          <img src="https://github.com/mmtawous.png" width="32px;" alt="Mohamed Tawous"/>
+        <a href="https://github.com/nothub/mrpack-install/commits?author=mmtawous">
+          <img src="https://avatars.githubusercontent.com/u/94245036?v=4" width="32px;" alt="Mohamed Tawous"/>
           <br><sub><b>Mohamed Tawous</b></sub>
         </a>
       </td>
       <td align="center">
-        <a href="https://github.com/nothub/mrpack-install/commits?author=Pr. James Hunter">
-          <img src="https://github.com/Hunter200165.png" width="32px;" alt="Pr. James Hunter"/>
+        <a href="https://github.com/nothub/mrpack-install/commits?author=Hunter200165">
+          <img src="https://avatars.githubusercontent.com/u/37095578?v=4" width="32px;" alt="Pr. James Hunter"/>
           <br><sub><b>Pr. James Hunter</b></sub>
         </a>
       </td>
       <td align="center">
-        <a href="https://github.com/nothub/mrpack-install/commits?author=murder_spagurder">
-          <img src="https://github.com/murderspagurder.png" width="32px;" alt="murder_spagurder"/>
+        <a href="https://github.com/nothub/mrpack-install/commits?author=murderspagurder">
+          <img src="https://avatars.githubusercontent.com/u/183448866?v=4" width="32px;" alt="murder_spagurder"/>
           <br><sub><b>murder_spagurder</b></sub>
         </a>
       </td></tr>
