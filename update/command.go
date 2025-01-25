@@ -13,9 +13,8 @@ import (
 	"os"
 	"path/filepath"
 	"reflect"
+	"slices"
 )
-
-import "golang.org/x/exp/slices"
 
 func Cmd(serverDir string, dlThreads uint8, dlRetries uint8, index *mrpack.Index, zipPath string, oldState *packstate.Schema) {
 	log.Printf("Updating %q in %q with %q\n", index.Name, serverDir, zipPath)
