@@ -36,17 +36,19 @@ To build and publish a full release, push a semver tag (with 'v' prefix) to the 
 
 ## Contributors
 
+Some people contributed to this project. Thank you! 😊
+
 <table>
   <tbody>
     <tr>
-{{ range .Contribs }}
+{{- range .Contribs }}
       <td align="center">
         <a href="https://github.com/nothub/mrpack-install/commits?author={{ .Name }}">
           <img src="{{ .URL }}.png" width="32px;" alt="{{ .Name }}"/>
           <br><sub><b>{{ .Name }}</b></sub>
         </a>
       </td>
-{{ end -}}
+{{- end -}}
     </tr>
   </tbody>
 </table>
