@@ -165,13 +165,44 @@ To build and publish a full release, push a semver tag (with 'v' prefix) to the 
 
 ## Contributors
 
+<table>
+  <tbody>
+    <tr>
 
-- [ <img src="https://github.com/Chikage0o0.png" width="32" height="32" /> Chikage0o0 ](https://github.com/Chikage0o0)
+      <td align="center">
+        <a href="https://github.com/nothub/mrpack-install/commits?author=Chikage0o0">
+          <img src="https://github.com/Chikage0o0.png" width="32px;" alt="Chikage0o0"/>
+          <br><sub><b>Chikage0o0</b></sub>
+        </a>
+      </td>
 
-- [ <img src="https://github.com/anhgelus.png" width="32" height="32" /> William Hergès ](https://github.com/anhgelus)
+      <td align="center">
+        <a href="https://github.com/nothub/mrpack-install/commits?author=William Hergès">
+          <img src="https://github.com/anhgelus.png" width="32px;" alt="William Hergès"/>
+          <br><sub><b>William Hergès</b></sub>
+        </a>
+      </td>
 
-- [ <img src="https://github.com/mmtawous.png" width="32" height="32" /> Mohamed Tawous ](https://github.com/mmtawous)
+      <td align="center">
+        <a href="https://github.com/nothub/mrpack-install/commits?author=Mohamed Tawous">
+          <img src="https://github.com/mmtawous.png" width="32px;" alt="Mohamed Tawous"/>
+          <br><sub><b>Mohamed Tawous</b></sub>
+        </a>
+      </td>
 
-- [ <img src="https://github.com/Hunter200165.png" width="32" height="32" /> Pr. James Hunter ](https://github.com/Hunter200165)
+      <td align="center">
+        <a href="https://github.com/nothub/mrpack-install/commits?author=Pr. James Hunter">
+          <img src="https://github.com/Hunter200165.png" width="32px;" alt="Pr. James Hunter"/>
+          <br><sub><b>Pr. James Hunter</b></sub>
+        </a>
+      </td>
 
-- [ <img src="https://github.com/murderspagurder.png" width="32" height="32" /> murder_spagurder ](https://github.com/murderspagurder)
+      <td align="center">
+        <a href="https://github.com/nothub/mrpack-install/commits?author=murder_spagurder">
+          <img src="https://github.com/murderspagurder.png" width="32px;" alt="murder_spagurder"/>
+          <br><sub><b>murder_spagurder</b></sub>
+        </a>
+      </td>
+</tr>
+  </tbody>
+</table>
